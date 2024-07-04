@@ -8,8 +8,8 @@ The aim of this project is to streamline and simplify the approach to exception 
 
 1. **Throwing Extensions**: Simplify and standardize the way exceptions are thrown based on null checks and predicate evaluations.
    - **ThrowArgumentNullExceptionIfNull**: Throws an `ArgumentNullException` if the value is null.
-   - **ThrowArgumentExceptionIfNullOr**: Throws an `ArgumentException` if the value is null or does not meet a specified condition.
-   - **ThrowArgumentExceptionIf**: Throws an `ArgumentException` if the value does not meet a specified condition.
+   - **ThrowArgumentExceptionIfNullOr**: Throws an `ArgumentException` if the value is null or does meet a specified condition.
+   - **ThrowArgumentExceptionIf**: Throws an `ArgumentException` if the value does meet a specified condition.
    - **ThrowIf**: Throws a custom exception if the value does not meet a specified condition.
 
 2. **Exception Extensions**: Enhance exceptions by adding custom data in a structured and reusable way.
