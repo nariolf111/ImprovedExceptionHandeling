@@ -59,7 +59,7 @@ Getting Started
 
     bash
 
-git clone https://github.com/yourusername/improved-exception-handling.git
+git clone [https://github.com/yourusername/improved-exception-handling.git](https://github.com/nariolf111/ImprovedExceptionHandeling.git)
 
 Add the project to your solution and reference it in your project.
 Use the provided extension methods to enhance your exception handling logic.
