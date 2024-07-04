@@ -3,7 +3,20 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/nariolf111/ImprovedExceptionHandeling/tree/master</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>The aim of this project is to streamline and simplify the approach to exception handling in C#. This repository contains extensions and utility methods to enhance the readability, maintainability, and robustness of your exception handling code.</Description>
+    <PackageTags>Utility;Exception;Exceptions;C#</PackageTags>
+    <Title>ImporvedExceptionHandling</Title>
+    <PackageLicenseExpression>  MIT</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="8.0.3" />
