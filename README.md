@@ -62,4 +62,7 @@ Getting Started
 git clone [url](https://github.com/nariolf111/ImprovedExceptionHandeling.git)
 
 Add the project to your solution and reference it in your project.
+
+or Download the Nuget Package at: [Nuget.Org](https://www.nuget.org/packages/ImprovedExceptionHandeling/)
+
 Use the provided extension methods to enhance your exception handling logic.
