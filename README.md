@@ -34,9 +34,9 @@ email.ThrowArgumentExceptionIfNullOr(x => !x.Contains("@")); // Throws ArgumentE
 
 var p = new Person(Age:0);
 p.ThrowIf(expression: x => x.Age < 1, factory: () => new ArgumentNullException("This is my CustomText"));
-
-Exception Extensions
-
+```
+### Exception Extensions
+```csharp
 try
 {
     string data = null;
