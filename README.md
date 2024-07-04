@@ -10,7 +10,7 @@ The aim of this project is to streamline and simplify the approach to exception 
    - **ThrowArgumentNullExceptionIfNull**: Throws an `ArgumentNullException` if the value is null.
    - **ThrowArgumentExceptionIfNullOr**: Throws an `ArgumentException` if the value is null or does meet a specified condition.
    - **ThrowArgumentExceptionIf**: Throws an `ArgumentException` if the value does meet a specified condition.
-   - **ThrowIf**: Throws a custom exception if the value does not meet a specified condition.
+   - **ThrowIf**: Throws a custom exception if the value does meet a specified condition.
 
 2. **Exception Extensions**: Enhance exceptions by adding custom data in a structured and reusable way.
    - **AddData (Single Pair)**: Adds a single key-value pair to the exception's data.
